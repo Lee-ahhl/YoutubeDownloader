@@ -120,6 +120,8 @@ public partial class DashboardViewModel : ViewModelBase
                 Path.Combine(AppContext.BaseDirectory, FFmpeg.CliFileName),
                 progress
             );
+
+            _snackbarManager.Notify(_localizationManager.FFmpegDownloadCompletedTitle);
         }
         catch (Exception ex)
         {

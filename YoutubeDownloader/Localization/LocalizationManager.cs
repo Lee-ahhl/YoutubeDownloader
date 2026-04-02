@@ -166,6 +166,7 @@ public partial class LocalizationManager
     public string FFmpegMissingTitle => Get();
     public string FFmpegMissingMessage => Get();
     public string FFmpegDownloadingTitle => Get();
+    public string FFmpegDownloadCompletedTitle => Get();
     public string NothingFoundTitle => Get();
     public string NothingFoundMessage => Get();
     public string ErrorTitle => Get();

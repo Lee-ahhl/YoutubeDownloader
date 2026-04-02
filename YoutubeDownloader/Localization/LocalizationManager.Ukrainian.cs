@@ -116,6 +116,7 @@ public partial class LocalizationManager
             [nameof(FFmpegMissingMessage)] =
                 "FFmpeg не знайдено на вашому пристрої. Він потрібен для роботи {0}. Бажаєте завантажити його зараз?",
             [nameof(FFmpegDownloadingTitle)] = "Завантаження FFmpeg...",
+            [nameof(FFmpegDownloadCompletedTitle)] = "FFmpeg завантажено",
             [nameof(NothingFoundTitle)] = "Нічого не знайдено",
             [nameof(NothingFoundMessage)] = "Не вдалося знайти відео за вказаним запитом або URL",
             [nameof(ErrorTitle)] = "Помилка",

@@ -119,6 +119,7 @@ public partial class LocalizationManager
         [nameof(FFmpegMissingMessage)] =
             "FFmpeg wurde auf Ihrem System nicht gefunden. Es wird benötigt damit {0} funktioniert. Möchten Sie es jetzt herunterladen?",
         [nameof(FFmpegDownloadingTitle)] = "FFmpeg wird heruntergeladen...",
+        [nameof(FFmpegDownloadCompletedTitle)] = "FFmpeg heruntergeladen",
         [nameof(NothingFoundTitle)] = "Nichts gefunden",
         [nameof(NothingFoundMessage)] =
             "Es konnten keine Videos basierend auf der angegebenen Anfrage oder URL gefunden werden",
