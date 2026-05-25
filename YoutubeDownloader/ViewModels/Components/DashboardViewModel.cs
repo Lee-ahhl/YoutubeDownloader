@@ -127,6 +127,8 @@ public partial class DashboardViewModel : ViewModelBase
                     ex.Message
                 )
             );
+
+            App.Shutdown(3);
         }
         finally
         {
